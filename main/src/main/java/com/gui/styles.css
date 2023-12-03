@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Global class for vertical stacking with even spacing */
+.vertical-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Apply additional styling to specific elements if needed */
+.title-label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.message-label {
+    font-size: 14px;
+}
+
+.start-button {
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+}
